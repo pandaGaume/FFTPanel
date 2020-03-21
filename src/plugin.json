@@ -1,0 +1,40 @@
+{
+  "type": "panel",
+  "name": "FFTPanel",
+  "id": "dotvision-fft-panel",
+  "info": {
+    "description": "Fast Fourrier Transform panel for grafana",
+    "author": {
+      "name": "DotVision",
+      "url": "www.dotvision.com"
+    },
+    "keywords": [
+      "fft",
+      "dsp",
+      "signal",
+      "fourrier",
+      "transform"
+    ],
+    "logos": {
+      "small": "img/bluepanda.png",
+      "large": "img/bluepanda.png"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://github.com/grafana/simple-react-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}

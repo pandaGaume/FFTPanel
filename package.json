@@ -1,0 +1,31 @@
+{
+  "name": "dotvision-fft-panel",
+  "version": "1.0.0",
+  "description": "FFT panel fro grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grafana/simple-react-panel.git"
+  },
+  "author": "DotVision",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/grafana/simple-react-panel/issues",
+    "email": "plugins@grafana.com"
+  },
+  "devDependencies": {
+    "@grafana/data": "next",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "next"
+  },
+  "dependencies": {
+    "fft.js": "^4.0.3",
+    "highcharts": "^8.0.4",
+    "highcharts-react-official": "^3.0.0"
+  }
+}
