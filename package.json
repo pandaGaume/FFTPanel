@@ -24,6 +24,10 @@
     "@grafana/ui": "next"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "fft.js": "^4.0.3",
+>>>>>>> 248cd7879e1441cd7f4977bbe912ede0803d7db7
     "highcharts": "^8.0.4",
     "highcharts-react-official": "^3.0.0"
   }
